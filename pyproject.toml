@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "gene2disease-onset-project"
+version = "0.1.0"
+description = ""
+authors = ["megankraus <127896848+megankraus@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "gene2disease_onset_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jupyter = "^1.0.0"
+requests = "^2.29.0"
+pandas = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
