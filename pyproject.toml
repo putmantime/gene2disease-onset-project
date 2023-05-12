@@ -11,6 +11,8 @@ python = "^3.9"
 jupyter = "^1.0.0"
 requests = "^2.29.0"
 pandas = "^2.0.1"
+matplotlib = "^3.7.1"
+seaborn = "^0.12.2"
 
 
 [build-system]
